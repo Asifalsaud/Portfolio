@@ -1,213 +1,208 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="Asifalsaud">
-  <meta name="description" content="Portfolio website | Web Developer | Open source Enthusiast">
-  <meta name="keywords" content="Asif, Alsaud, Asif Alsaud, portfolio, css, javascript, software, coding, programming, web, 
-  development, developer, frontend">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="IZ7Sm227j_9N0Sy_JmwOvn1_OAm_O2rHr2833ZV0Fro">
-  <title>Asif Alsaud Portfolio</title>
-  <link rel="stylesheet" href="style.css" >
-  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento" rel="stylesheet">
-  <link rel="shortcut icon" href="./img/fbavatar_1630400663387_6838396024049256103.png" type="image/x-icon">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
- <meta itemprop="description" content="Web Developer | Open source Enthusiast">
- <meta name="application-name" content="Portfolio Website">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="512">
-<meta property="og:image:height" content="512">
-<meta property="twitter:image:type" content="image/png">
-<meta property="twitter:image:width" content="512">
-<meta property="twitter:image:width" content="512">
-</head>
-
-<body>
-  <header class="header">
-    <nav class="navbar">
-      <div class="navbar-container container">
-        <div>
-          <h1 class="navbar-brand">ASIF ALSAUD</h1>
-        </div>
-        <ul class="menu-items">
-          <li><a href="#about">About</a></li>
-          <li><a href="#my-works">Portfolio</a></li>
-          <li><a href="#contact-me">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="home-content" id="home-page">
-      <div class="name">
-        <h1>Hi, I'm Asif Alsaud</h1>
-        <p>A graduate in Python and Web Development.</p>
-      </div>
-      <div class="angle-down-icon">
-        <a href="#about"><i class="fas fa-angle-down"></i></a>
-      </div>
-    </div>
-  </header>
-  <section class="about-me" id="about">
-    <div class="container">
-      <div class="about-content">
-        <div class="left-content">
-          <div>
-           <h1 class="about-heading">About Me</h1>
-          </div> 
-          <img src="data:image/jpeg;base64,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"  />
-          <p>
-            As a graduate in Computer Science and a strong foundation in Python, HTML, CSS, JavaScript, I am eager to embark on a career in the IT field. My academic achievements and technical skills, coupled with my commitment to continuous learning, position me as a well-rounded and motivated candidate. I am seeking an entry-level position that allows me to apply my technical skills and contribute to a dynamic team while further developing my expertise in software development
-          </p>
-          <div class="work-arrow">
-            <p>
-              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
-            </p>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="right-content">
-            <div>
-              <h1 class="skills-heading">My Skills</h1>
-            </div>
-            <div class="skills-bar">
-              <div class="bar">
-                <div class="info">
-                  <span>HTML</span>
-                </div>
-                <div class="progress-line"><span class="html"></span></div>
-                <div class="bar">
-                  <div class="info">
-                    <span>CSS</span>
-                  </div>
-                  <div class="progress-line"><span class="css"></span></div>
-                  <div class="bar">
-                    <div class="info">
-                      <span>JAVASCRIPT</span>
-                    </div>
-                    <div class="progress-line"><span class="JAVASCRIPT"></span></div>
-                    <div class="bar">
-                      <div class="info">
-                        <span>PYTHON</span>
-                      </div>
-                      <div class="progress-line"><span class="PYTHON"></span></div>
-                      <div class="bar">
-                        <div class="info">
-                          <span>MYSQL</span>
-                        </div>
-                        <div class="progress-line"><span class="MYSQL"></span></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="work-arrow-2">
-              <p>
-                <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
- </section>
-  <section id="my-works">
-    <div class="portfolio">
-      <div class="proj-heading">
-        <h1>Portfolio</h1>
-      </div>
-      <div class="portfolio-content container">
-        <div class="proj-1">
-          <img src="data:image/jpeg;base64,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">
-          <div class="proj1-details">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-js"></i>
-            <h2>Are you ready to challenge?, </h2>
-            <p>This is my first project which was build Using HTML,CSS,JS</p>
-            <button><a href="https://asifalsaud.github.io/Tic-tac-toe/" target="blank">Challenge  <i
-              class="fas fa-external-link-alt"></i></a>
-            </button>
-          </div>
-        </div>
-         <div class="proj-2">
-          <img src="https://www.shutterstock.com/image-vector/clock-running-alarm-deadline-concept-260nw-1801800316.jpg">
-          <div class="proj2-details">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-js"></i>
-            <h2>Interactive clock </h2>
-            <p>Ineractive animated live clock with special feature of adding events</p>
-            <button><a href="https://asifalsaud.github.io/Clock/" target="blank">Press me  <i
-              class="fas fa-external-link-alt"></i></a>
-            </button>
-          </div>
-        </div>
-          </div>
-          
-        </div>
-        
-  </section>
-  <div class="contact" id="contact-me">
-    <div class="container">
-      <div class="contact-content">
-        <h2>Contact Me</h2>
-        <p class="mail">
-          Get in touch with me <i class="fas fa-arrow-right"></i> asifalsaud000@gmail.com
-        </p>
-        <p class="links">Or find me on:</p>
-        <a href="https://www.linkedin.com/in/asif-alsaud-ali-557a98153/" target="blank"><i class="fab fa-linkedin">Linkedin</i></a>
-        <a href="https://github.com/Asifalsaud" target="blank"><i class="fab fa-github"></i> Github</a>
-        <a href="https://twitter.com/asifalsaud" target="blank"><i class="fab fa-twitter"> Twitter</i></a>
-        <a href="https://www.instagram.com/akhi_asif_al_saud/" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $(window).scroll(function () {
-        // checks if window is scrolled more than 500px, adds/removes solid class
-        if ($(this).scrollTop() > 550) {
-          $('.navbar').addClass('solid');
-          $('.back-to-top').addClass('visible');
-        } else {
-          $('.navbar').removeClass('solid');
-          $('.back-to-top').removeClass('visible');
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #FF6600, #FFCC00);
         }
 
-      });
-    });
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      // Add smooth scrolling to all links
-      $("a").on('click', function (event) {
+        #board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 5px;
+            border: 2px solid #333;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
 
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
+        .cell {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            background: linear-gradient(45deg, #FF6600, #FFCC00);
+            color: #FFF;
+            transition: background-color 0.2s, transform 0.2s;
+        }
 
-          // Store hash
-          var hash = this.hash;
+        .cell:hover {
+            background: #FF5733; /* Change color on hover */
+            transform: scale(1.05); /* Add scale effect on hover */
+        }
 
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function () {
+        .cell.X::before {
+            content: "X";
+        }
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-  </script>
+        .cell.O::before {
+            content: "O";
+        }
+
+        #result {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #fff;
+        }
+
+        #reset {
+            background: linear-gradient(45deg, #FF6600, #FFCC00);
+            color: #fff;
+            border: black;
+            padding: 5px 10px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.2s;
+        }
+
+        .animation {
+            animation: scale 0.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes scale {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.1);
+            }
+        }
+
+        .cell::before {
+            content: "";
+            display: none;
+        }
+
+        /* Add hover effect to cells */
+        .cell:hover {
+            transform: scale(1.05);
+            background-color: #FF5733; /* Change color on hover */
+            transition: transform 0.2s;
+        }
+
+        /* Add transition effect to the reset button */
+        #reset:hover {
+    background: #FF5733; /* Change color on hover */
+    transition: background 0.2s; /* Add a transition effect */
+}
+
+        /* Add animation for winning cells */
+        .cell.X.animation::before {
+            content: "X";
+            animation: bounce 0.5s;
+        }
+
+        .cell.O.animation::before {
+            content: "O";
+            animation: bounce 0.5s;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        #reset:active {
+    background-color: #FF3300; /* Change color when the button is clicked */
+}
+    </style>
+</head>
+<body>
+    <div id="board">
+        <div class="cell" onclick="makeMove(0)"></div>
+        <div class="cell" onclick="makeMove(1)"></div>
+        <div class="cell" onclick="makeMove(2)"></div>
+        <div class="cell" onclick="makeMove(3)"></div>
+        <div class="cell" onclick="makeMove(4)"></div>
+        <div class="cell" onclick="makeMove(5)"></div>
+        <div class="cell" onclick="makeMove(6)"></div>
+        <div class="cell" onclick="makeMove(7)"></div>
+        <div class="cell" onclick="makeMove(8)"></div>
+    </div>
+    <p id="result"></p>
+    <button id="reset" onclick="resetGame()">Reset</button>
+
+    <script>
+        const cells = document.querySelectorAll('.cell');
+        let currentPlayer = 'X';
+        let winner = null;
+        let moves = 0;
+
+        function makeMove(cellIndex) {
+            if (!cells[cellIndex].textContent && !winner) {
+                cells[cellIndex].textContent = currentPlayer;
+                cells[cellIndex].classList.add(currentPlayer);
+                currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+                moves++;
+                checkWinner();
+            }
+        }
+
+        function checkWinner() {
+            const winningCombinations = [
+                [0, 1, 2],
+                [3, 4, 5],
+                [6, 7, 8],
+                [0, 3, 6],
+                [1, 4, 7],
+                [2, 5, 8],
+                [0, 4, 8],
+                [2, 4, 6],
+            ];
+
+            for (const combination of winningCombinations) {
+                const [a, b, c] = combination;
+                if (cells[a].textContent && cells[a].textContent === cells[b].textContent && cells[a].textContent === cells[c].textContent) {
+                    cells[a].style.color = 'white';
+                    cells[b].style.color = 'white';
+                    cells[c].style.color = 'white';
+                    winner = cells[a].textContent;
+                    document.getElementById('result').textContent = `Player ${winner} wins!`;
+                    cells[a].classList.add('animation');
+                    cells[b].classList.add('animation');
+                    cells[c].classList.add('animation');
+                }
+            }
+
+            if (moves === 9 && !winner) {
+                document.getElementById('result').textContent = "It's a draw!";
+            }
+        }
+
+        function resetGame() {
+            cells.forEach(cell => {
+                cell.textContent = '';
+                cell.classList.remove('X', 'O', 'animation');
+                cell.style.color = '#fff';
+                cell.style.border = 'none';
+            });
+            currentPlayer = 'X';
+            winner = null;
+            moves = 0;
+            document.getElementById('result').textContent = '';
+        }
+    </script>
 </body>
 
 </html>
